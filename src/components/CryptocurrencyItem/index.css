@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+.currency-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .currency-value-container {
+    width: 40%;
+  }
+  .list-item {
+    width: 50%;
+  }
+}
+.currency-value-container {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}

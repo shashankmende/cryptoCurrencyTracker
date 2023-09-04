@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.list-container {
+  width: 80%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+}
+@media screen and (max-width: 767px) {
+  .crypto-image {
+    width: 100%;
+  }
+}
